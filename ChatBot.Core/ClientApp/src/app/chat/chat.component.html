@@ -1,0 +1,21 @@
+<p>chat!</p>
+
+
+<p *ngIf="!data"><em>Loading...</em></p>
+<div class="card" #scrollMe style="overflow:auto;height:250px;">
+  <div class="card-header">Chats</div>
+  <div class="card-body">
+    <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+
+      <tbody>
+        <tr *ngFor="let d of data">
+          <td>{{d }}</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p aria-live="polite">User : <input type="text" [(ngModel)]="model" (keyup.enter)="addData()" /> </p>
+
+<button class="btn btn-primary" (click)="addData()">Send</button>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ConfigurationFiles\DefaultPredicates.xml" />
+    <None Remove="ConfigurationFiles\GenderSubstitutions.xml" />
+    <None Remove="ConfigurationFiles\Person2Substitutions.xml" />
+    <None Remove="ConfigurationFiles\PersonSubstitutions.xml" />
+    <None Remove="ConfigurationFiles\Settings.xml" />
+    <None Remove="ConfigurationFiles\Splitters.xml" />
+    <None Remove="ConfigurationFiles\Substitutions.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ConfigurationFiles\DefaultPredicates.xml" />
+    <Content Include="ConfigurationFiles\GenderSubstitutions.xml" />
+    <Content Include="ConfigurationFiles\Person2Substitutions.xml" />
+    <Content Include="ConfigurationFiles\PersonSubstitutions.xml" />
+    <Content Include="ConfigurationFiles\Settings.xml" />
+    <Content Include="ConfigurationFiles\Splitters.xml" />
+    <Content Include="ConfigurationFiles\Substitutions.xml" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+D:\Chatbot\AIMLbot.core\bin\Debug\netcoreapp3.1\AIMLbot.core.deps.json
+D:\Chatbot\AIMLbot.core\bin\Debug\netcoreapp3.1\AIMLbot.core.dll
+D:\Chatbot\AIMLbot.core\bin\Debug\netcoreapp3.1\AIMLbot.core.pdb
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.csprojAssemblyReference.cache
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.csproj.CoreCompileInputs.cache
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.AssemblyInfoInputs.cache
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.AssemblyInfo.cs
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.dll
+D:\Chatbot\AIMLbot.core\obj\Debug\netcoreapp3.1\AIMLbot.core.pdb
