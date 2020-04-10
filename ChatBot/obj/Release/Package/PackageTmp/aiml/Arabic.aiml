@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml>
+
+
+<category>
+	<pattern>السلام عليكم</pattern>
+	<template>وعليكم السلام ورحمة الله و بركاته
+	</template>
+</category>
+
+  <category>
+    <pattern>السلام عليكم *</pattern>
+    <template>
+      وعليكم السلام ورحمة الله و بركاته
+    </template>
+  </category>
+<category>
+	<pattern>مرحبا</pattern>
+	<template>
+		<random>
+			<li>السلام عليكم</li>
+			<li>مرحبا بك...</li>
+			<li>صباح الخير</li>
+		
+		</random>
+	</template>
+</category> 
+
+  
+
+</aiml>

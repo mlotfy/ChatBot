@@ -1,0 +1,6 @@
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\bin\Release\AIMLbot.dll
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\bin\Release\AIMLbot.pdb
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\obj\Release\AIMLbot.csprojAssemblyReference.cache
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\obj\Release\AIMLbot.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\obj\Release\AIMLbot.dll
+C:\Users\Mostafa\Downloads\AIMLbotSource2.5\AIMLbot\AIMLbot\obj\Release\AIMLbot.pdb
