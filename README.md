@@ -36,23 +36,36 @@ AIML (Artificial Intelligence Markup Language) is an XML-compliant language that
 The most important units of AIML are:
 
 `<aiml>` : the tag that begins and ends an AIML document
+
 `<category>` : the tag that marks a “unit of knowledge” in an Alicebot’s knowledge base
+
 `<pattern>` : used to contain a simple pattern that matches what a user may say or type to an Alicebot
+
 `<template>` : contains the response to a user input
+
 There are also 20 or so additional more tags often found in AIML files, and it’s possible to create your own so-called “custom predicates”. Right now, a beginner’s guide to AIML can be found in the AIML Primer.
 
 The free A.L.I.C.E. AIML includes a knowledge base of approximately 41,000 categories. Here’s an example of one of them:
 
 `<category>
+
     <pattern>WHAT ARE YOU</pattern>
+    
         <template>
-            <think><set name="topic">Me</set></think>
+        
+            <think><set name=topic>Me</set></think>
+            
             I am the latest result in artificial intelligence,
+            
             which can reproduce the capabilities of the human brain
+            
             with greater speed and accuracy.
+            
     </template>
-</category>'
-(The opening and closing <aiml> tags are not shown here, because this is an excerpt from the middle of a document.)
+    
+</category>`
+
+
 
 Everything between `<category>` and `</category>` is—you guessed it—a category. A category can have one pattern and one template. (It can also contain a <that> tag, but we won’t get into that here.)
 
